@@ -1,0 +1,23 @@
+
+<view class="blank-page"> 
+   <swiper  
+   a:if="{{imageLoad}}" 
+        class="swiper"  
+        interval="{{2500}}"
+        autoplay 
+        circular
+      >
+        <block a:for="{{4}}">
+          <swiper-item key="swiper-item-{{index}}">
+           <image  lazy-load 
+           src='{{imgPath}}/photo/xianghu{{index+1}}.jpg'
+           />
+          </swiper-item>
+        </block>
+      </swiper>
+          <notice 
+      type="default"
+      loop=true
+      showIcon >杭州近日多地有雷雨，请合理规划游玩计划。</notice>
+       <my-list list={{list}}></my-list>
+</view>
