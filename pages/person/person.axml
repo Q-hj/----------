@@ -8,8 +8,7 @@
 >
   获取用户信息
 </button> -->
-  <view class='head' a:if='{{userInfo}}'>
-    
+  <view class='head' a:if='{{userInfo}}'> 
     <avatar  class='avatar' size='large' src='{{userInfo.avatar}}' />
   </view>
   <my-menu list={{likeList}}></my-menu>
