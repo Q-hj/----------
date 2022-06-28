@@ -1,5 +1,5 @@
 {
-  "pages": ["pages/person/person", "pages/index/index"],
+  "pages": ["pages/record/record", "pages/person/person", "pages/index/index"],
   "window": {
     "defaultTitle": "云游杭州",
     "backgroundColor": "#fff"
@@ -14,6 +14,12 @@
         "pagePath": "pages/index/index",
         "icon": "assets/icon/热门.png",
         "activeIcon": "assets/icon/热门a.png"
+      },
+      {
+        "name": "打卡",
+        "pagePath": "pages/record/record",
+        "icon": "assets/icon/打卡.png",
+        "activeIcon": "assets/icon/打卡a.png"
       },
 
       {

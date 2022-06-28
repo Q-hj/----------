@@ -1,0 +1,7 @@
+<view>
+ <map longitude="{{longitude}}"  scale="{{scale}}" enable-zoom="{{true}}" latitude="{{latitude}}" show-location="{{true}}"></map>
+  <view class="content">
+    
+    {{city}}{{district}}
+  </view>
+</view>
